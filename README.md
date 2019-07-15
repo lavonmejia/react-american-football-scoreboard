@@ -18,13 +18,13 @@ In this project, you build an app that diplays a scoreboard for an american foot
 
 - [X] Create a forked copy of this project.
 - [X] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd american-football-scoreboard`
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Clone your OWN version of the repository in your terminal
+- [X] CD into the project base directory `cd american-football-scoreboard`
+- [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -73,3 +73,4 @@ After finishing your required elements, you can push your work further. These go
 - Play around with the styling and make this project your own! Maybe make it a soccer (non-american football) scoreboard, or a rugby or baseball scoreboard
 - Add a button that changes which quarter the game is in, and then render the state quarter value on the scoreboard
 - Make the entire board fully functional with buttons and state! (If you want to make a timer, you'll have to look into useEffect)
+
