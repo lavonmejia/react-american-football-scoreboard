@@ -1,11 +1,8 @@
 import React from "react";
 import "./App.css";
-// import { useState } from 'react';
 
 
-
-
-const BottomRow = () => {
+const BottomRow = (props) => {
 
   return (
     <div className="bottomRow">
@@ -23,7 +20,7 @@ const BottomRow = () => {
       </div>
       <div className="quarter">
         <h3 className="quarter__title">Quarter</h3>
-        <div className="quarter__value" >{QuarterButton.testing}</div>
+        <div className="quarter__value" >{(props.quarter % 4) + 1}</div>
       </div>
     </div>
   );
